@@ -28,7 +28,7 @@ public class App {
 
         // Kontostände nach den Änderungen ausgeben
         System.out.println("Konto 1: " + konto1.getBesitzer() + konto1.getKontostand() + " Euro");
-        System.out.println("Konto 2: " + konto2.getBesitzer() + konto2.getKontostand() + " Euro");;
+        System.out.println("Konto 2: " + konto2.getBesitzer() + konto2.getKontostand() + " Euro");
         System.out.println("Konto 3: " + konto3.getBesitzer() + konto3.getKontostand() + " Euro");
     }
 }
