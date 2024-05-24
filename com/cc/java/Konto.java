@@ -1,19 +1,26 @@
 package com.cc.java;
 
-public class Konto {
+class Konto {
 
-    private int kontostand;    
+    private double kontostand;
+    public String besitzer;
 
-    public Konto(int kontostand) {
+    public Konto(String besitzer, double kontostand) {
         this.kontostand = kontostand;
+        this.besitzer = besitzer;
     }
 
-    public int getKontostand() {
+    public double getKontostand() {
         return kontostand;
     }
 
-    public void setKontostand(int kontostand){
+   
+    public void setKontostand(double kontostand){
         this.kontostand = kontostand;
     }
-  
+
+    public String getBesitzer() {
+        return besitzer;
+ 
+    }
 }
